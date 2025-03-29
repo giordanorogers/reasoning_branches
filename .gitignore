@@ -1,0 +1,6 @@
+.env
+nnsight/
+reasoner_copy.py
+.cursor/
+__pycache__/
+notes.md
