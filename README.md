@@ -1,4 +1,4 @@
-# Branched Reasoning
+# Reasoning Branches
 
 **Very early work in progress.**
 
