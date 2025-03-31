@@ -4,3 +4,4 @@ reasoner_copy.py
 .cursor/
 __pycache__/
 notes.md
+sandbox.ipynb

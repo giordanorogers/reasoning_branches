@@ -10,6 +10,7 @@ from typing import List
 import numpy as np
 import matplotlib.pyplot as plt
 from transformers import pipeline
+import reasoner2
 
 def classify_text_segments(
         texts: List[str],
@@ -67,6 +68,8 @@ def classify_text_segments(
     return processed_results
 
 if __name__ == "__main__":
+    
+
     # Setup some example strings for testing the classifier.
     classification_examples = {
         "Initializing": "I am now initializing.",
