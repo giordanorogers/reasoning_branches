@@ -1,0 +1,28 @@
+# Model Configuration
+model:
+  name: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+  remote_logging: false
+
+# Generation Parameters
+generation:
+  max_length: 32000
+  temperature: 0.6
+  do_sample: true
+  top_p: null
+
+# Special Tokens
+tokens:
+  bos: 128000
+  user: 128011
+  assistant: 128012
+  newline: 198
+  think_start: 128013
+  think_end: 128014
+  eos: 128001
+
+# Experiment Settings
+experiment:
+  num_problems: 20 # Change to 20 for DS3500 project # 200+ is better long term
+  num_responses: 3 # Change to 3 for DS3500 project # 30+ is better long term
+  input_file: "MATH-500_123.json" # "olymMATH_10.json" # "gsm8k_50.json"
+  output_file: "MATH-500_123_r1.json" # "olymMATH_10_r1.json"

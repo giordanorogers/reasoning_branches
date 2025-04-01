@@ -1,0 +1,34 @@
+[
+  {
+    "problem":"Suppose $\\sin D = 0.7$ in the diagram below. What is $DE$? [asy]\npair D,E,F;\nF = (0,0);\nD = (sqrt(51),7);\nE = (0,7);\ndraw(D--E--F--D);\ndraw(rightanglemark(D,E,F,15));\nlabel(\"$D$\",D,NE);\nlabel(\"$E$\",E,NW);\nlabel(\"$F$\",F,SW);\nlabel(\"$7$\",(E+F)\/2,W);\n[\/asy]",
+    "solution":"The triangle is a right triangle, so $\\sin D = \\frac{EF}{DF}$. Then we have that $\\sin D = 0.7 = \\frac{7}{DF}$, so $DF = 10$.\n\nUsing the Pythagorean Theorem, we find that the length of $DE$ is $\\sqrt{DF^2 - EF^2},$ or $\\sqrt{100 - 49} = \\boxed{\\sqrt{51}}$.",
+    "answer":"\\sqrt{51}",
+    "subject":"Precalculus",
+    "level":1,
+    "unique_id":"test\/precalculus\/1303.json"
+  },
+  {
+    "problem":"Compute: $1-2+3-4+5- \\dots +99-100$.",
+    "solution":"$(1-2)+(3-4)+ \\dots +(97-98)+(99-100) = 50(-1) = \\boxed{-50}.$",
+    "answer":"-50",
+    "subject":"Intermediate Algebra",
+    "level":1,
+    "unique_id":"test\/intermediate_algebra\/134.json"
+  },
+  {
+    "problem":"$\\overline{BC}$ is parallel to the segment through $A$, and $AB = BC$. What is the number of degrees represented by $x$?\n\n[asy]\ndraw((0,0)--(10,0));\ndraw((0,3)--(10,3));\ndraw((2,3)--(8,0));\ndraw((2,3)--(4,0));\nlabel(\"$A$\",(2,3),N);\nlabel(\"$B$\",(4,0),S);\nlabel(\"$C$\",(8,0),S);\nlabel(\"$124^{\\circ}$\",(2,3),SW);\nlabel(\"$x^{\\circ}$\",(4.5,3),S);\n[\/asy]",
+    "solution":"Angle $\\angle BCA$ and the angle we're trying to measure are alternate interior angles, so they are congruent. Thus, $\\angle BCA=x^\\circ$:\n\n[asy]\ndraw((0,0)--(10,0));\ndraw((0,3)--(10,3));\ndraw((2,3)--(8,0));\ndraw((2,3)--(4,0));\nlabel(\"$A$\",(2,3),N);\nlabel(\"$B$\",(4,0),S);\nlabel(\"$C$\",(8,0),S);\nlabel(\"$124^{\\circ}$\",(2,3),SW);\nlabel(\"$x^{\\circ}$\",(4.5,3),S);\nlabel(\"$x^{\\circ}$\",(6,0),N);\n[\/asy]\n\nSince $AB=BC$, we know that $\\triangle ABC$ is isosceles with equal angles at $C$ and $A$. Therefore, $\\angle BAC = x^\\circ$:\n\n[asy]\ndraw((0,0)--(10,0));\ndraw((0,3)--(10,3));\ndraw((2,3)--(8,0));\ndraw((2,3)--(4,0));\nlabel(\"$A$\",(2,3),N);\nlabel(\"$B$\",(4,0),S);\nlabel(\"$C$\",(8,0),S);\nlabel(\"$124^{\\circ}$\",(2,3),SW);\nlabel(\"$x^{\\circ}$\",(4.5,3),S);\nlabel(\"$x^{\\circ}$\",(6,0),N);\nlabel(\"$x^{\\circ}$\",(3.6,1.7));\n[\/asy]\n\nThe sum of the three angles at $A$ is $180^\\circ$, since they form a straight angle. Therefore, $$124+x+x=180,$$ which we can solve to obtain $x=\\boxed{28}$.",
+    "answer":"28",
+    "subject":"Geometry",
+    "level":1,
+    "unique_id":"test\/geometry\/434.json"
+  },
+  {
+    "problem":"If a snack-size tin of peaches has $40$ calories and is $2\\%$ of a person's daily caloric requirement, how many calories fulfill a person's daily caloric requirement?",
+    "solution":"If 40 calories is equal to $2\\%=\\frac{2}{100}=\\frac{1}{50}$ of a person's daily requirement, then a person's daily caloric requirement is: $$40\\cdot 50=\\boxed{2000}$$",
+    "answer":"2000",
+    "subject":"Algebra",
+    "level":1,
+    "unique_id":"test\/algebra\/24.json"
+  }
+]

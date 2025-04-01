@@ -1,0 +1,62 @@
+[
+  {
+    "problem":"Given a non-negative integer sequence $\\{a_n\\}$ satisfying $a_1 = 2016$, $a_{n+1} \\le \\sqrt{a_n}$, and if the number of terms is at least 2, then any two terms in the sequence are not equal. Find the number of such sequences $\\{a_n\\}$.",
+    "answer":"948",
+    "subject":"Combinatorics",
+    "unique_id":"OlymMATH-EASY-0-EN"
+  },
+  {
+    "problem":"Given that $AB$ is a diameter of circle $\\odot C$ with radius $2$, circle $\\odot D$ is internally tangent to circle $\\odot C$ at point $A$, circle $\\odot E$ is internally tangent to circle $\\odot C$, externally tangent to circle $\\odot D$, and tangent to line segment $AB$ at point $F$. If the radius of circle $\\odot D$ is $3$ times the radius of circle $\\odot E$, find the radius of circle $\\odot D$.",
+    "answer":"4\\sqrt{15}-14",
+    "subject":"Geometry",
+    "unique_id":"OlymMATH-EASY-1-EN"
+  },
+  {
+    "problem":"Calculate the value of $\\sqrt{9+8\\cos 20^{\\circ }}-\\sec 20^{\\circ }$.",
+    "answer":"3",
+    "subject":"Algebra",
+    "unique_id":"OlymMATH-EASY-2-EN"
+  },
+  {
+    "problem":"A sphere is circumscribed around tetrahedron $ABCD$, and another sphere with radius $1$ is tangent to plane $ABC$. The two spheres are internally tangent at point $D$. If $AD=3$, $\\cos \\angle BAC=\\frac{4}{5}$, $\\cos \\angle BAD=\\cos \\angle CAD=\\frac{1}{\\sqrt{2}}$, find the volume of tetrahedron $ABCD$.",
+    "answer":"\\frac{18}{5}",
+    "subject":"Geometry",
+    "unique_id":"OlymMATH-EASY-3-EN"
+  },
+  {
+    "problem":"Find the minimum value of $f(x) = \\sum_{i=1}^{2017} i|x-i|$ when $x \\in [1, 2017]$.",
+    "answer":"801730806",
+    "subject":"Algebra",
+    "unique_id":"OlymMATH-EASY-4-EN"
+  },
+  {
+    "problem":"In a triangle, the three interior angles form an arithmetic sequence. The difference between the longest and shortest sides is 4 times the height to the third side. Find how much larger the largest interior angle is than the smallest interior angle. (Express the answer using inverse trigonometric functions)",
+    "answer":"\\pi -\\arccos \\frac{1}{8}",
+    "subject":"Geometry",
+    "unique_id":"OlymMATH-EASY-5-EN"
+  },
+  {
+    "problem":"What is the distance between the foci of the quadratic curve $(3x+4y-13)(7x-24y+3)=200$?",
+    "answer":"2\\sqrt{10}",
+    "subject":"Geometry",
+    "unique_id":"OlymMATH-EASY-6-EN"
+  },
+  {
+    "problem":"In a cube, any two vertices determine a line. Find how many pairs of lines are perpendicular and skew (non-intersecting) to each other.",
+    "answer":"78",
+    "subject":"Combinatorics",
+    "unique_id":"OlymMATH-EASY-7-EN"
+  },
+  {
+    "problem":"Find the range of the function $f(x)=\\frac{(x-x^3)(1-6x^2+x^4)}{(1+x^2)^4}$.",
+    "answer":"\\left[ -\\frac{1}{8}, \\frac{1}{8} \\right]",
+    "subject":"Algebra",
+    "unique_id":"OlymMATH-EASY-8-EN"
+  },
+  {
+    "problem":"Let the set of positive integers $A = \\{a_1, a_2, \\dots, a_{1000}\\}$, where $a_1 < a_2 < \\dots < a_{1000} \\le 2017$. If for any $1 \\le i, j \\le 1000$, whenever $i+j \\in A$, we have $a_i + a_j \\in A$, find the number of sets $A$ that satisfy this condition.",
+    "answer":"2^{17}",
+    "subject":"Combinatorics",
+    "unique_id":"OlymMATH-EASY-9-EN"
+  }
+]
