@@ -1,0 +1,6 @@
+initializing
+deduction
+adding-knowledge
+example-testing
+uncertainty-estimation
+backtracking

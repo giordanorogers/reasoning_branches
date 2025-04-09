@@ -22,7 +22,7 @@ tokens:
 
 # Experiment Settings
 experiment:
-  num_problems: 20 # Change to 20 for DS3500 project # 200+ is better long term
+  num_problems: 3 # Change to 20 for DS3500 project # 200+ is better long term
   num_responses: 3 # Change to 3 for DS3500 project # 30+ is better long term
-  input_file: "MATH-500_123.json" # "olymMATH_10.json" # "gsm8k_50.json"
-  output_file: "MATH-500_123_r1.json" # "olymMATH_10_r1.json"
+  input_file: "gsm8k_50.json" # "MATH-500_123.json" # "olymMATH_10.json"
+  output_file: "gsm8k_3_r1.json" # "MATH-500_123_r1.json" # "olymMATH_10_r1.json"

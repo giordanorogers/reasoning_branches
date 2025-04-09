@@ -1,0 +1,301 @@
+dataset,expression,chain_of_thought,answer
+validation,((8 * 24) + (22 - 12)),"[""Compute 8 * 24 = 192."", ""Compute 22 - 12 = 10."", ""Compute 192 + 10 = 202.""]",202
+validation,((25 - 10) - (21 - 47)),"[""Compute 25 - 10 = 15."", ""Compute 21 - 47 = -26."", ""Compute 15 - -26 = 41.""]",41
+validation,(2 * 4),"[""Compute 2 * 4 = 8.""]",8
+validation,((38 - 18) - (11 * 30)),"[""Compute 38 - 18 = 20."", ""Compute 11 * 30 = 330."", ""Compute 20 - 330 = -310.""]",-310
+validation,((45 * 39) - (36 - 14)),"[""Compute 45 * 39 = 1755."", ""Compute 36 - 14 = 22."", ""Compute 1755 - 22 = 1733.""]",1733
+validation,(9 * 3),"[""Compute 9 * 3 = 27.""]",27
+validation,(33 * 3),"[""Compute 33 * 3 = 99.""]",99
+validation,((22 * 46) - (5 * 12)),"[""Compute 22 * 46 = 1012."", ""Compute 5 * 12 = 60."", ""Compute 1012 - 60 = 952.""]",952
+validation,((17 - 21) + (6 + 15)),"[""Compute 17 - 21 = -4."", ""Compute 6 + 15 = 21."", ""Compute -4 + 21 = 17.""]",17
+validation,(10 + 26),"[""Compute 10 + 26 = 36.""]",36
+validation,(1 + 28),"[""Compute 1 + 28 = 29.""]",29
+validation,((36 + 46) - (13 + 46)),"[""Compute 36 + 46 = 82."", ""Compute 13 + 46 = 59."", ""Compute 82 - 59 = 23.""]",23
+validation,((48 + 22) + (21 - 1)),"[""Compute 48 + 22 = 70."", ""Compute 21 - 1 = 20."", ""Compute 70 + 20 = 90.""]",90
+validation,((19 - 37) * (14 + 31)),"[""Compute 19 - 37 = -18."", ""Compute 14 + 31 = 45."", ""Compute -18 * 45 = -810.""]",-810
+validation,(1 - 41),"[""Compute 1 - 41 = -40.""]",-40
+validation,((8 + 11) * (27 + 48)),"[""Compute 8 + 11 = 19."", ""Compute 27 + 48 = 75."", ""Compute 19 * 75 = 1425.""]",1425
+validation,(29 * 7),"[""Compute 29 * 7 = 203.""]",203
+validation,(23 - 3),"[""Compute 23 - 3 = 20.""]",20
+validation,((31 * 24) - (22 * 21)),"[""Compute 31 * 24 = 744."", ""Compute 22 * 21 = 462."", ""Compute 744 - 462 = 282.""]",282
+validation,((1 - 31) + (17 - 14)),"[""Compute 1 - 31 = -30."", ""Compute 17 - 14 = 3."", ""Compute -30 + 3 = -27.""]",-27
+validation,((8 - 23) - (32 - 49)),"[""Compute 8 - 23 = -15."", ""Compute 32 - 49 = -17."", ""Compute -15 - -17 = 2.""]",2
+validation,((9 - 24) * (21 + 48)),"[""Compute 9 - 24 = -15."", ""Compute 21 + 48 = 69."", ""Compute -15 * 69 = -1035.""]",-1035
+validation,(36 + 7),"[""Compute 36 + 7 = 43.""]",43
+validation,(11 + 24),"[""Compute 11 + 24 = 35.""]",35
+validation,(30 * 29),"[""Compute 30 * 29 = 870.""]",870
+validation,((41 * 22) + (50 + 1)),"[""Compute 41 * 22 = 902."", ""Compute 50 + 1 = 51."", ""Compute 902 + 51 = 953.""]",953
+validation,(46 * 41),"[""Compute 46 * 41 = 1886.""]",1886
+validation,((5 * 20) - (22 - 2)),"[""Compute 5 * 20 = 100."", ""Compute 22 - 2 = 20."", ""Compute 100 - 20 = 80.""]",80
+validation,((28 - 34) + (3 + 23)),"[""Compute 28 - 34 = -6."", ""Compute 3 + 23 = 26."", ""Compute -6 + 26 = 20.""]",20
+validation,((10 - 1) * (46 * 45)),"[""Compute 10 - 1 = 9."", ""Compute 46 * 45 = 2070."", ""Compute 9 * 2070 = 18630.""]",18630
+validation,((41 - 43) - (10 * 7)),"[""Compute 41 - 43 = -2."", ""Compute 10 * 7 = 70."", ""Compute -2 - 70 = -72.""]",-72
+validation,(10 * 10),"[""Compute 10 * 10 = 100.""]",100
+validation,((41 - 36) + (10 + 49)),"[""Compute 41 - 36 = 5."", ""Compute 10 + 49 = 59."", ""Compute 5 + 59 = 64.""]",64
+validation,((46 + 23) - (38 - 45)),"[""Compute 46 + 23 = 69."", ""Compute 38 - 45 = -7."", ""Compute 69 - -7 = 76.""]",76
+validation,(14 * 19),"[""Compute 14 * 19 = 266.""]",266
+validation,(37 * 38),"[""Compute 37 * 38 = 1406.""]",1406
+validation,(34 - 32),"[""Compute 34 - 32 = 2.""]",2
+validation,(23 * 12),"[""Compute 23 * 12 = 276.""]",276
+validation,((25 * 13) - (11 - 21)),"[""Compute 25 * 13 = 325."", ""Compute 11 - 21 = -10."", ""Compute 325 - -10 = 335.""]",335
+validation,(33 * 12),"[""Compute 33 * 12 = 396.""]",396
+validation,((21 * 50) - (5 + 32)),"[""Compute 21 * 50 = 1050."", ""Compute 5 + 32 = 37."", ""Compute 1050 - 37 = 1013.""]",1013
+validation,(20 - 20),"[""Compute 20 - 20 = 0.""]",0
+validation,((11 + 16) + (41 * 43)),"[""Compute 11 + 16 = 27."", ""Compute 41 * 43 = 1763."", ""Compute 27 + 1763 = 1790.""]",1790
+validation,(15 + 2),"[""Compute 15 + 2 = 17.""]",17
+validation,(35 + 21),"[""Compute 35 + 21 = 56.""]",56
+validation,((7 + 17) * (14 + 9)),"[""Compute 7 + 17 = 24."", ""Compute 14 + 9 = 23."", ""Compute 24 * 23 = 552.""]",552
+validation,(48 - 36),"[""Compute 48 - 36 = 12.""]",12
+validation,(17 - 19),"[""Compute 17 - 19 = -2.""]",-2
+validation,((40 - 6) - (35 - 28)),"[""Compute 40 - 6 = 34."", ""Compute 35 - 28 = 7."", ""Compute 34 - 7 = 27.""]",27
+validation,((40 * 7) + (11 - 41)),"[""Compute 40 * 7 = 280."", ""Compute 11 - 41 = -30."", ""Compute 280 + -30 = 250.""]",250
+validation,((8 * 13) * (40 * 43)),"[""Compute 8 * 13 = 104."", ""Compute 40 * 43 = 1720."", ""Compute 104 * 1720 = 178880.""]",178880
+validation,((16 * 11) - (36 * 29)),"[""Compute 16 * 11 = 176."", ""Compute 36 * 29 = 1044."", ""Compute 176 - 1044 = -868.""]",-868
+validation,((32 * 49) - (15 - 23)),"[""Compute 32 * 49 = 1568."", ""Compute 15 - 23 = -8."", ""Compute 1568 - -8 = 1576.""]",1576
+validation,(31 * 3),"[""Compute 31 * 3 = 93.""]",93
+validation,((37 * 1) + (28 - 24)),"[""Compute 37 * 1 = 37."", ""Compute 28 - 24 = 4."", ""Compute 37 + 4 = 41.""]",41
+validation,(22 * 16),"[""Compute 22 * 16 = 352.""]",352
+validation,((1 + 28) - (33 + 17)),"[""Compute 1 + 28 = 29."", ""Compute 33 + 17 = 50."", ""Compute 29 - 50 = -21.""]",-21
+validation,((9 - 13) * (44 - 10)),"[""Compute 9 - 13 = -4."", ""Compute 44 - 10 = 34."", ""Compute -4 * 34 = -136.""]",-136
+validation,(1 + 40),"[""Compute 1 + 40 = 41.""]",41
+validation,(11 * 21),"[""Compute 11 * 21 = 231.""]",231
+validation,((37 * 41) + (8 + 48)),"[""Compute 37 * 41 = 1517."", ""Compute 8 + 48 = 56."", ""Compute 1517 + 56 = 1573.""]",1573
+validation,(31 + 38),"[""Compute 31 + 38 = 69.""]",69
+validation,((41 - 33) + (24 * 5)),"[""Compute 41 - 33 = 8."", ""Compute 24 * 5 = 120."", ""Compute 8 + 120 = 128.""]",128
+validation,(2 + 49),"[""Compute 2 + 49 = 51.""]",51
+validation,(28 + 13),"[""Compute 28 + 13 = 41.""]",41
+validation,(2 + 48),"[""Compute 2 + 48 = 50.""]",50
+validation,((8 + 39) + (11 - 5)),"[""Compute 8 + 39 = 47."", ""Compute 11 - 5 = 6."", ""Compute 47 + 6 = 53.""]",53
+validation,(14 * 29),"[""Compute 14 * 29 = 406.""]",406
+validation,(30 - 16),"[""Compute 30 - 16 = 14.""]",14
+validation,(3 - 1),"[""Compute 3 - 1 = 2.""]",2
+validation,((7 + 31) - (15 - 41)),"[""Compute 7 + 31 = 38."", ""Compute 15 - 41 = -26."", ""Compute 38 - -26 = 64.""]",64
+validation,((20 * 11) * (33 * 44)),"[""Compute 20 * 11 = 220."", ""Compute 33 * 44 = 1452."", ""Compute 220 * 1452 = 319440.""]",319440
+validation,(8 * 15),"[""Compute 8 * 15 = 120.""]",120
+validation,((20 * 10) * (25 * 32)),"[""Compute 20 * 10 = 200."", ""Compute 25 * 32 = 800."", ""Compute 200 * 800 = 160000.""]",160000
+validation,((46 - 30) + (43 * 8)),"[""Compute 46 - 30 = 16."", ""Compute 43 * 8 = 344."", ""Compute 16 + 344 = 360.""]",360
+validation,((11 + 49) - (31 + 42)),"[""Compute 11 + 49 = 60."", ""Compute 31 + 42 = 73."", ""Compute 60 - 73 = -13.""]",-13
+validation,(30 * 44),"[""Compute 30 * 44 = 1320.""]",1320
+validation,((11 * 24) + (32 + 49)),"[""Compute 11 * 24 = 264."", ""Compute 32 + 49 = 81."", ""Compute 264 + 81 = 345.""]",345
+validation,(3 - 5),"[""Compute 3 - 5 = -2.""]",-2
+validation,((37 - 23) * (4 - 1)),"[""Compute 37 - 23 = 14."", ""Compute 4 - 1 = 3."", ""Compute 14 * 3 = 42.""]",42
+validation,((16 * 19) * (24 * 22)),"[""Compute 16 * 19 = 304."", ""Compute 24 * 22 = 528."", ""Compute 304 * 528 = 160512.""]",160512
+validation,(46 * 20),"[""Compute 46 * 20 = 920.""]",920
+validation,((46 * 18) + (28 + 50)),"[""Compute 46 * 18 = 828."", ""Compute 28 + 50 = 78."", ""Compute 828 + 78 = 906.""]",906
+validation,(45 - 38),"[""Compute 45 - 38 = 7.""]",7
+validation,((35 - 44) + (14 + 26)),"[""Compute 35 - 44 = -9."", ""Compute 14 + 26 = 40."", ""Compute -9 + 40 = 31.""]",31
+validation,((42 + 3) + (22 + 19)),"[""Compute 42 + 3 = 45."", ""Compute 22 + 19 = 41."", ""Compute 45 + 41 = 86.""]",86
+validation,((16 * 8) - (28 + 45)),"[""Compute 16 * 8 = 128."", ""Compute 28 + 45 = 73."", ""Compute 128 - 73 = 55.""]",55
+validation,(3 - 41),"[""Compute 3 - 41 = -38.""]",-38
+validation,(1 + 37),"[""Compute 1 + 37 = 38.""]",38
+validation,(21 - 34),"[""Compute 21 - 34 = -13.""]",-13
+validation,(44 * 11),"[""Compute 44 * 11 = 484.""]",484
+validation,((41 + 22) * (48 + 13)),"[""Compute 41 + 22 = 63."", ""Compute 48 + 13 = 61."", ""Compute 63 * 61 = 3843.""]",3843
+validation,((39 + 34) * (12 + 41)),"[""Compute 39 + 34 = 73."", ""Compute 12 + 41 = 53."", ""Compute 73 * 53 = 3869.""]",3869
+validation,((37 * 45) + (27 + 4)),"[""Compute 37 * 45 = 1665."", ""Compute 27 + 4 = 31."", ""Compute 1665 + 31 = 1696.""]",1696
+validation,((12 * 22) - (14 * 6)),"[""Compute 12 * 22 = 264."", ""Compute 14 * 6 = 84."", ""Compute 264 - 84 = 180.""]",180
+validation,((24 - 35) * (41 * 40)),"[""Compute 24 - 35 = -11."", ""Compute 41 * 40 = 1640."", ""Compute -11 * 1640 = -18040.""]",-18040
+validation,((46 + 23) * (24 + 49)),"[""Compute 46 + 23 = 69."", ""Compute 24 + 49 = 73."", ""Compute 69 * 73 = 5037.""]",5037
+validation,((31 - 23) - (24 * 8)),"[""Compute 31 - 23 = 8."", ""Compute 24 * 8 = 192."", ""Compute 8 - 192 = -184.""]",-184
+validation,(43 + 45),"[""Compute 43 + 45 = 88.""]",88
+validation,(28 + 41),"[""Compute 28 + 41 = 69.""]",69
+validation,((9 * 8) - (13 - 35)),"[""Compute 9 * 8 = 72."", ""Compute 13 - 35 = -22."", ""Compute 72 - -22 = 94.""]",94
+validation,((5 * 39) + (7 + 36)),"[""Compute 5 * 39 = 195."", ""Compute 7 + 36 = 43."", ""Compute 195 + 43 = 238.""]",238
+validation,((25 - 31) + (34 * 7)),"[""Compute 25 - 31 = -6."", ""Compute 34 * 7 = 238."", ""Compute -6 + 238 = 232.""]",232
+validation,((16 * 15) * (20 * 14)),"[""Compute 16 * 15 = 240."", ""Compute 20 * 14 = 280."", ""Compute 240 * 280 = 67200.""]",67200
+validation,(48 - 26),"[""Compute 48 - 26 = 22.""]",22
+validation,((10 * 11) - (18 + 12)),"[""Compute 10 * 11 = 110."", ""Compute 18 + 12 = 30."", ""Compute 110 - 30 = 80.""]",80
+validation,((39 - 36) - (20 * 26)),"[""Compute 39 - 36 = 3."", ""Compute 20 * 26 = 520."", ""Compute 3 - 520 = -517.""]",-517
+validation,((25 + 9) + (14 - 49)),"[""Compute 25 + 9 = 34."", ""Compute 14 - 49 = -35."", ""Compute 34 + -35 = -1.""]",-1
+validation,((4 - 37) + (40 - 46)),"[""Compute 4 - 37 = -33."", ""Compute 40 - 46 = -6."", ""Compute -33 + -6 = -39.""]",-39
+validation,((16 - 12) * (6 - 26)),"[""Compute 16 - 12 = 4."", ""Compute 6 - 26 = -20."", ""Compute 4 * -20 = -80.""]",-80
+validation,(48 * 25),"[""Compute 48 * 25 = 1200.""]",1200
+validation,(11 * 42),"[""Compute 11 * 42 = 462.""]",462
+validation,(14 * 32),"[""Compute 14 * 32 = 448.""]",448
+validation,(10 * 45),"[""Compute 10 * 45 = 450.""]",450
+validation,((29 * 17) - (37 * 49)),"[""Compute 29 * 17 = 493."", ""Compute 37 * 49 = 1813."", ""Compute 493 - 1813 = -1320.""]",-1320
+validation,(11 * 16),"[""Compute 11 * 16 = 176.""]",176
+validation,((3 + 39) + (46 + 48)),"[""Compute 3 + 39 = 42."", ""Compute 46 + 48 = 94."", ""Compute 42 + 94 = 136.""]",136
+validation,((21 + 41) + (43 - 27)),"[""Compute 21 + 41 = 62."", ""Compute 43 - 27 = 16."", ""Compute 62 + 16 = 78.""]",78
+validation,(43 * 3),"[""Compute 43 * 3 = 129.""]",129
+validation,((1 * 23) + (34 + 41)),"[""Compute 1 * 23 = 23."", ""Compute 34 + 41 = 75."", ""Compute 23 + 75 = 98.""]",98
+validation,((22 * 28) - (32 - 41)),"[""Compute 22 * 28 = 616."", ""Compute 32 - 41 = -9."", ""Compute 616 - -9 = 625.""]",625
+validation,(45 - 25),"[""Compute 45 - 25 = 20.""]",20
+validation,(50 + 23),"[""Compute 50 + 23 = 73.""]",73
+validation,(23 + 47),"[""Compute 23 + 47 = 70.""]",70
+validation,(16 - 14),"[""Compute 16 - 14 = 2.""]",2
+validation,(50 + 16),"[""Compute 50 + 16 = 66.""]",66
+validation,((16 - 32) - (43 * 30)),"[""Compute 16 - 32 = -16."", ""Compute 43 * 30 = 1290."", ""Compute -16 - 1290 = -1306.""]",-1306
+validation,((3 * 45) + (24 - 1)),"[""Compute 3 * 45 = 135."", ""Compute 24 - 1 = 23."", ""Compute 135 + 23 = 158.""]",158
+validation,((21 + 3) - (41 - 45)),"[""Compute 21 + 3 = 24."", ""Compute 41 - 45 = -4."", ""Compute 24 - -4 = 28.""]",28
+validation,(33 * 14),"[""Compute 33 * 14 = 462.""]",462
+validation,((4 * 32) * (12 - 4)),"[""Compute 4 * 32 = 128."", ""Compute 12 - 4 = 8."", ""Compute 128 * 8 = 1024.""]",1024
+validation,(28 - 36),"[""Compute 28 - 36 = -8.""]",-8
+validation,(12 * 42),"[""Compute 12 * 42 = 504.""]",504
+validation,(44 + 33),"[""Compute 44 + 33 = 77.""]",77
+validation,(4 * 32),"[""Compute 4 * 32 = 128.""]",128
+validation,((10 * 42) + (21 - 6)),"[""Compute 10 * 42 = 420."", ""Compute 21 - 6 = 15."", ""Compute 420 + 15 = 435.""]",435
+validation,(46 + 28),"[""Compute 46 + 28 = 74.""]",74
+validation,(24 * 38),"[""Compute 24 * 38 = 912.""]",912
+validation,((45 + 45) - (4 * 15)),"[""Compute 45 + 45 = 90."", ""Compute 4 * 15 = 60."", ""Compute 90 - 60 = 30.""]",30
+validation,((5 * 4) + (8 - 9)),"[""Compute 5 * 4 = 20."", ""Compute 8 - 9 = -1."", ""Compute 20 + -1 = 19.""]",19
+validation,((22 - 14) + (21 * 9)),"[""Compute 22 - 14 = 8."", ""Compute 21 * 9 = 189."", ""Compute 8 + 189 = 197.""]",197
+validation,(48 - 26),"[""Compute 48 - 26 = 22.""]",22
+validation,(6 * 25),"[""Compute 6 * 25 = 150.""]",150
+validation,(23 * 34),"[""Compute 23 * 34 = 782.""]",782
+validation,(11 + 13),"[""Compute 11 + 13 = 24.""]",24
+validation,(12 + 44),"[""Compute 12 + 44 = 56.""]",56
+validation,((27 * 47) + (39 + 48)),"[""Compute 27 * 47 = 1269."", ""Compute 39 + 48 = 87."", ""Compute 1269 + 87 = 1356.""]",1356
+validation,((44 - 12) + (23 + 23)),"[""Compute 44 - 12 = 32."", ""Compute 23 + 23 = 46."", ""Compute 32 + 46 = 78.""]",78
+validation,(18 + 23),"[""Compute 18 + 23 = 41.""]",41
+validation,(8 * 2),"[""Compute 8 * 2 = 16.""]",16
+validation,(21 + 27),"[""Compute 21 + 27 = 48.""]",48
+validation,((1 * 1) + (32 * 29)),"[""Compute 1 * 1 = 1."", ""Compute 32 * 29 = 928."", ""Compute 1 + 928 = 929.""]",929
+validation,(28 - 2),"[""Compute 28 - 2 = 26.""]",26
+validation,(18 + 18),"[""Compute 18 + 18 = 36.""]",36
+validation,(47 * 3),"[""Compute 47 * 3 = 141.""]",141
+validation,(3 + 21),"[""Compute 3 + 21 = 24.""]",24
+validation,((39 + 12) - (23 + 6)),"[""Compute 39 + 12 = 51."", ""Compute 23 + 6 = 29."", ""Compute 51 - 29 = 22.""]",22
+validation,(29 + 29),"[""Compute 29 + 29 = 58.""]",58
+validation,((33 - 4) - (1 * 14)),"[""Compute 33 - 4 = 29."", ""Compute 1 * 14 = 14."", ""Compute 29 - 14 = 15.""]",15
+validation,(6 + 24),"[""Compute 6 + 24 = 30.""]",30
+validation,(15 - 47),"[""Compute 15 - 47 = -32.""]",-32
+validation,((36 * 40) + (29 - 25)),"[""Compute 36 * 40 = 1440."", ""Compute 29 - 25 = 4."", ""Compute 1440 + 4 = 1444.""]",1444
+validation,((43 + 49) * (27 * 21)),"[""Compute 43 + 49 = 92."", ""Compute 27 * 21 = 567."", ""Compute 92 * 567 = 52164.""]",52164
+validation,((49 - 31) * (47 * 18)),"[""Compute 49 - 31 = 18."", ""Compute 47 * 18 = 846."", ""Compute 18 * 846 = 15228.""]",15228
+validation,((17 - 35) - (19 * 26)),"[""Compute 17 - 35 = -18."", ""Compute 19 * 26 = 494."", ""Compute -18 - 494 = -512.""]",-512
+validation,(2 + 42),"[""Compute 2 + 42 = 44.""]",44
+validation,(7 * 15),"[""Compute 7 * 15 = 105.""]",105
+validation,((42 * 29) - (24 * 29)),"[""Compute 42 * 29 = 1218."", ""Compute 24 * 29 = 696."", ""Compute 1218 - 696 = 522.""]",522
+validation,((24 * 19) * (39 - 7)),"[""Compute 24 * 19 = 456."", ""Compute 39 - 7 = 32."", ""Compute 456 * 32 = 14592.""]",14592
+validation,((10 - 33) * (12 + 8)),"[""Compute 10 - 33 = -23."", ""Compute 12 + 8 = 20."", ""Compute -23 * 20 = -460.""]",-460
+validation,(1 * 12),"[""Compute 1 * 12 = 12.""]",12
+validation,(48 - 22),"[""Compute 48 - 22 = 26.""]",26
+validation,(25 + 23),"[""Compute 25 + 23 = 48.""]",48
+validation,((44 - 8) - (22 - 5)),"[""Compute 44 - 8 = 36."", ""Compute 22 - 5 = 17."", ""Compute 36 - 17 = 19.""]",19
+validation,((5 * 42) * (48 * 46)),"[""Compute 5 * 42 = 210."", ""Compute 48 * 46 = 2208."", ""Compute 210 * 2208 = 463680.""]",463680
+validation,((26 - 40) - (33 + 3)),"[""Compute 26 - 40 = -14."", ""Compute 33 + 3 = 36."", ""Compute -14 - 36 = -50.""]",-50
+validation,(45 - 50),"[""Compute 45 - 50 = -5.""]",-5
+validation,(31 - 12),"[""Compute 31 - 12 = 19.""]",19
+validation,(24 + 13),"[""Compute 24 + 13 = 37.""]",37
+validation,(48 - 45),"[""Compute 48 - 45 = 3.""]",3
+validation,((42 - 18) + (26 + 25)),"[""Compute 42 - 18 = 24."", ""Compute 26 + 25 = 51."", ""Compute 24 + 51 = 75.""]",75
+validation,(30 * 5),"[""Compute 30 * 5 = 150.""]",150
+validation,((28 + 20) + (25 + 21)),"[""Compute 28 + 20 = 48."", ""Compute 25 + 21 = 46."", ""Compute 48 + 46 = 94.""]",94
+validation,((36 * 4) + (1 - 39)),"[""Compute 36 * 4 = 144."", ""Compute 1 - 39 = -38."", ""Compute 144 + -38 = 106.""]",106
+validation,(23 * 19),"[""Compute 23 * 19 = 437.""]",437
+validation,((2 + 34) * (11 - 9)),"[""Compute 2 + 34 = 36."", ""Compute 11 - 9 = 2."", ""Compute 36 * 2 = 72.""]",72
+validation,((1 + 24) - (18 - 7)),"[""Compute 1 + 24 = 25."", ""Compute 18 - 7 = 11."", ""Compute 25 - 11 = 14.""]",14
+validation,((47 - 28) * (23 - 36)),"[""Compute 47 - 28 = 19."", ""Compute 23 - 36 = -13."", ""Compute 19 * -13 = -247.""]",-247
+validation,(49 - 36),"[""Compute 49 - 36 = 13.""]",13
+validation,((32 * 13) - (13 * 13)),"[""Compute 32 * 13 = 416."", ""Compute 13 * 13 = 169."", ""Compute 416 - 169 = 247.""]",247
+validation,((13 * 20) + (12 - 27)),"[""Compute 13 * 20 = 260."", ""Compute 12 - 27 = -15."", ""Compute 260 + -15 = 245.""]",245
+validation,(44 - 21),"[""Compute 44 - 21 = 23.""]",23
+validation,(11 + 12),"[""Compute 11 + 12 = 23.""]",23
+validation,(4 + 32),"[""Compute 4 + 32 = 36.""]",36
+validation,((14 - 29) * (13 - 12)),"[""Compute 14 - 29 = -15."", ""Compute 13 - 12 = 1."", ""Compute -15 * 1 = -15.""]",-15
+validation,(3 + 24),"[""Compute 3 + 24 = 27.""]",27
+validation,((34 + 11) - (15 + 25)),"[""Compute 34 + 11 = 45."", ""Compute 15 + 25 = 40."", ""Compute 45 - 40 = 5.""]",5
+validation,(29 + 33),"[""Compute 29 + 33 = 62.""]",62
+validation,((44 - 21) + (5 - 44)),"[""Compute 44 - 21 = 23."", ""Compute 5 - 44 = -39."", ""Compute 23 + -39 = -16.""]",-16
+validation,((38 - 30) - (40 - 37)),"[""Compute 38 - 30 = 8."", ""Compute 40 - 37 = 3."", ""Compute 8 - 3 = 5.""]",5
+validation,((16 + 10) + (24 - 19)),"[""Compute 16 + 10 = 26."", ""Compute 24 - 19 = 5."", ""Compute 26 + 5 = 31.""]",31
+validation,((25 + 2) - (39 * 31)),"[""Compute 25 + 2 = 27."", ""Compute 39 * 31 = 1209."", ""Compute 27 - 1209 = -1182.""]",-1182
+validation,((2 - 39) * (48 * 50)),"[""Compute 2 - 39 = -37."", ""Compute 48 * 50 = 2400."", ""Compute -37 * 2400 = -88800.""]",-88800
+validation,((38 * 31) + (16 - 35)),"[""Compute 38 * 31 = 1178."", ""Compute 16 - 35 = -19."", ""Compute 1178 + -19 = 1159.""]",1159
+validation,((20 - 17) * (48 + 24)),"[""Compute 20 - 17 = 3."", ""Compute 48 + 24 = 72."", ""Compute 3 * 72 = 216.""]",216
+validation,((25 * 1) + (42 * 35)),"[""Compute 25 * 1 = 25."", ""Compute 42 * 35 = 1470."", ""Compute 25 + 1470 = 1495.""]",1495
+validation,((5 - 37) - (6 * 36)),"[""Compute 5 - 37 = -32."", ""Compute 6 * 36 = 216."", ""Compute -32 - 216 = -248.""]",-248
+validation,((17 + 7) + (10 - 1)),"[""Compute 17 + 7 = 24."", ""Compute 10 - 1 = 9."", ""Compute 24 + 9 = 33.""]",33
+validation,(39 + 44),"[""Compute 39 + 44 = 83.""]",83
+validation,((6 + 18) - (26 - 49)),"[""Compute 6 + 18 = 24."", ""Compute 26 - 49 = -23."", ""Compute 24 - -23 = 47.""]",47
+validation,((2 * 30) - (40 * 5)),"[""Compute 2 * 30 = 60."", ""Compute 40 * 5 = 200."", ""Compute 60 - 200 = -140.""]",-140
+validation,(20 * 1),"[""Compute 20 * 1 = 20.""]",20
+validation,(32 * 16),"[""Compute 32 * 16 = 512.""]",512
+validation,(36 + 39),"[""Compute 36 + 39 = 75.""]",75
+validation,(22 + 6),"[""Compute 22 + 6 = 28.""]",28
+validation,(30 + 16),"[""Compute 30 + 16 = 46.""]",46
+validation,(39 + 12),"[""Compute 39 + 12 = 51.""]",51
+validation,((31 * 43) + (41 + 44)),"[""Compute 31 * 43 = 1333."", ""Compute 41 + 44 = 85."", ""Compute 1333 + 85 = 1418.""]",1418
+validation,((14 + 5) * (44 - 45)),"[""Compute 14 + 5 = 19."", ""Compute 44 - 45 = -1."", ""Compute 19 * -1 = -19.""]",-19
+validation,((13 * 17) * (46 + 18)),"[""Compute 13 * 17 = 221."", ""Compute 46 + 18 = 64."", ""Compute 221 * 64 = 14144.""]",14144
+validation,((27 + 6) - (31 + 42)),"[""Compute 27 + 6 = 33."", ""Compute 31 + 42 = 73."", ""Compute 33 - 73 = -40.""]",-40
+validation,((17 - 11) + (39 - 33)),"[""Compute 17 - 11 = 6."", ""Compute 39 - 33 = 6."", ""Compute 6 + 6 = 12.""]",12
+validation,(27 + 21),"[""Compute 27 + 21 = 48.""]",48
+validation,((32 - 5) + (13 * 19)),"[""Compute 32 - 5 = 27."", ""Compute 13 * 19 = 247."", ""Compute 27 + 247 = 274.""]",274
+validation,(36 - 40),"[""Compute 36 - 40 = -4.""]",-4
+validation,((19 - 10) + (41 * 23)),"[""Compute 19 - 10 = 9."", ""Compute 41 * 23 = 943."", ""Compute 9 + 943 = 952.""]",952
+validation,((5 - 49) + (36 * 26)),"[""Compute 5 - 49 = -44."", ""Compute 36 * 26 = 936."", ""Compute -44 + 936 = 892.""]",892
+validation,(29 * 21),"[""Compute 29 * 21 = 609.""]",609
+validation,((1 + 8) + (24 * 6)),"[""Compute 1 + 8 = 9."", ""Compute 24 * 6 = 144."", ""Compute 9 + 144 = 153.""]",153
+validation,((33 + 16) + (9 - 21)),"[""Compute 33 + 16 = 49."", ""Compute 9 - 21 = -12."", ""Compute 49 + -12 = 37.""]",37
+validation,((42 * 1) - (34 + 20)),"[""Compute 42 * 1 = 42."", ""Compute 34 + 20 = 54."", ""Compute 42 - 54 = -12.""]",-12
+validation,(21 + 8),"[""Compute 21 + 8 = 29.""]",29
+validation,(5 + 49),"[""Compute 5 + 49 = 54.""]",54
+validation,(34 - 4),"[""Compute 34 - 4 = 30.""]",30
+validation,(5 - 38),"[""Compute 5 - 38 = -33.""]",-33
+validation,(29 + 1),"[""Compute 29 + 1 = 30.""]",30
+validation,((8 + 39) + (12 - 1)),"[""Compute 8 + 39 = 47."", ""Compute 12 - 1 = 11."", ""Compute 47 + 11 = 58.""]",58
+validation,(20 + 5),"[""Compute 20 + 5 = 25.""]",25
+validation,((3 - 5) + (4 + 18)),"[""Compute 3 - 5 = -2."", ""Compute 4 + 18 = 22."", ""Compute -2 + 22 = 20.""]",20
+validation,((9 * 45) + (30 * 24)),"[""Compute 9 * 45 = 405."", ""Compute 30 * 24 = 720."", ""Compute 405 + 720 = 1125.""]",1125
+validation,(36 * 26),"[""Compute 36 * 26 = 936.""]",936
+validation,((21 * 3) - (9 - 6)),"[""Compute 21 * 3 = 63."", ""Compute 9 - 6 = 3."", ""Compute 63 - 3 = 60.""]",60
+validation,((6 - 4) + (26 * 13)),"[""Compute 6 - 4 = 2."", ""Compute 26 * 13 = 338."", ""Compute 2 + 338 = 340.""]",340
+validation,((22 * 17) + (49 * 35)),"[""Compute 22 * 17 = 374."", ""Compute 49 * 35 = 1715."", ""Compute 374 + 1715 = 2089.""]",2089
+validation,((9 - 43) - (22 + 18)),"[""Compute 9 - 43 = -34."", ""Compute 22 + 18 = 40."", ""Compute -34 - 40 = -74.""]",-74
+validation,((7 + 13) * (31 - 21)),"[""Compute 7 + 13 = 20."", ""Compute 31 - 21 = 10."", ""Compute 20 * 10 = 200.""]",200
+validation,(9 - 2),"[""Compute 9 - 2 = 7.""]",7
+validation,(14 - 50),"[""Compute 14 - 50 = -36.""]",-36
+validation,(25 - 42),"[""Compute 25 - 42 = -17.""]",-17
+validation,((22 - 27) * (2 + 29)),"[""Compute 22 - 27 = -5."", ""Compute 2 + 29 = 31."", ""Compute -5 * 31 = -155.""]",-155
+validation,((6 * 39) + (44 - 25)),"[""Compute 6 * 39 = 234."", ""Compute 44 - 25 = 19."", ""Compute 234 + 19 = 253.""]",253
+validation,(13 + 41),"[""Compute 13 + 41 = 54.""]",54
+validation,(49 + 22),"[""Compute 49 + 22 = 71.""]",71
+validation,((38 + 1) + (5 + 37)),"[""Compute 38 + 1 = 39."", ""Compute 5 + 37 = 42."", ""Compute 39 + 42 = 81.""]",81
+validation,((5 * 21) + (17 * 42)),"[""Compute 5 * 21 = 105."", ""Compute 17 * 42 = 714."", ""Compute 105 + 714 = 819.""]",819
+validation,(27 + 20),"[""Compute 27 + 20 = 47.""]",47
+validation,((3 + 39) * (37 + 48)),"[""Compute 3 + 39 = 42."", ""Compute 37 + 48 = 85."", ""Compute 42 * 85 = 3570.""]",3570
+validation,(18 - 23),"[""Compute 18 - 23 = -5.""]",-5
+validation,((23 - 25) - (50 - 46)),"[""Compute 23 - 25 = -2."", ""Compute 50 - 46 = 4."", ""Compute -2 - 4 = -6.""]",-6
+validation,(33 + 13),"[""Compute 33 + 13 = 46.""]",46
+validation,((9 + 13) * (4 * 44)),"[""Compute 9 + 13 = 22."", ""Compute 4 * 44 = 176."", ""Compute 22 * 176 = 3872.""]",3872
+validation,(43 * 11),"[""Compute 43 * 11 = 473.""]",473
+validation,(38 - 16),"[""Compute 38 - 16 = 22.""]",22
+validation,(24 * 49),"[""Compute 24 * 49 = 1176.""]",1176
+validation,((44 + 8) + (36 + 42)),"[""Compute 44 + 8 = 52."", ""Compute 36 + 42 = 78."", ""Compute 52 + 78 = 130.""]",130
+validation,(23 - 3),"[""Compute 23 - 3 = 20.""]",20
+validation,(23 * 24),"[""Compute 23 * 24 = 552.""]",552
+validation,((22 - 4) * (42 * 30)),"[""Compute 22 - 4 = 18."", ""Compute 42 * 30 = 1260."", ""Compute 18 * 1260 = 22680.""]",22680
+validation,(49 * 12),"[""Compute 49 * 12 = 588.""]",588
+validation,(16 * 2),"[""Compute 16 * 2 = 32.""]",32
+validation,(1 - 11),"[""Compute 1 - 11 = -10.""]",-10
+validation,((49 + 44) * (25 - 23)),"[""Compute 49 + 44 = 93."", ""Compute 25 - 23 = 2."", ""Compute 93 * 2 = 186.""]",186
+validation,((47 * 18) + (11 - 10)),"[""Compute 47 * 18 = 846."", ""Compute 11 - 10 = 1."", ""Compute 846 + 1 = 847.""]",847
+validation,(37 + 46),"[""Compute 37 + 46 = 83.""]",83
+validation,(17 * 14),"[""Compute 17 * 14 = 238.""]",238
+validation,(22 * 20),"[""Compute 22 * 20 = 440.""]",440
+validation,(28 * 40),"[""Compute 28 * 40 = 1120.""]",1120
+validation,(20 - 17),"[""Compute 20 - 17 = 3.""]",3
+validation,(47 + 34),"[""Compute 47 + 34 = 81.""]",81
+validation,(17 + 3),"[""Compute 17 + 3 = 20.""]",20
+validation,((37 + 11) + (27 + 41)),"[""Compute 37 + 11 = 48."", ""Compute 27 + 41 = 68."", ""Compute 48 + 68 = 116.""]",116
+validation,(43 - 10),"[""Compute 43 - 10 = 33.""]",33
+validation,(28 * 42),"[""Compute 28 * 42 = 1176.""]",1176
+validation,((36 + 6) + (29 + 45)),"[""Compute 36 + 6 = 42."", ""Compute 29 + 45 = 74."", ""Compute 42 + 74 = 116.""]",116
+validation,((31 - 23) * (50 + 9)),"[""Compute 31 - 23 = 8."", ""Compute 50 + 9 = 59."", ""Compute 8 * 59 = 472.""]",472
+validation,((25 - 32) - (47 + 21)),"[""Compute 25 - 32 = -7."", ""Compute 47 + 21 = 68."", ""Compute -7 - 68 = -75.""]",-75
+validation,((23 * 14) + (49 + 10)),"[""Compute 23 * 14 = 322."", ""Compute 49 + 10 = 59."", ""Compute 322 + 59 = 381.""]",381
+validation,((48 - 14) + (45 * 21)),"[""Compute 48 - 14 = 34."", ""Compute 45 * 21 = 945."", ""Compute 34 + 945 = 979.""]",979
+validation,(32 + 16),"[""Compute 32 + 16 = 48.""]",48
+validation,(47 + 7),"[""Compute 47 + 7 = 54.""]",54
+validation,(14 * 29),"[""Compute 14 * 29 = 406.""]",406
+validation,((28 + 14) * (14 - 11)),"[""Compute 28 + 14 = 42."", ""Compute 14 - 11 = 3."", ""Compute 42 * 3 = 126.""]",126
+validation,((46 + 3) * (9 + 45)),"[""Compute 46 + 3 = 49."", ""Compute 9 + 45 = 54."", ""Compute 49 * 54 = 2646.""]",2646
+validation,(5 + 20),"[""Compute 5 + 20 = 25.""]",25
+validation,((40 - 45) * (20 * 19)),"[""Compute 40 - 45 = -5."", ""Compute 20 * 19 = 380."", ""Compute -5 * 380 = -1900.""]",-1900
+validation,((49 - 20) - (28 + 6)),"[""Compute 49 - 20 = 29."", ""Compute 28 + 6 = 34."", ""Compute 29 - 34 = -5.""]",-5
+validation,((37 - 40) + (29 + 18)),"[""Compute 37 - 40 = -3."", ""Compute 29 + 18 = 47."", ""Compute -3 + 47 = 44.""]",44
+validation,((38 + 27) - (18 - 33)),"[""Compute 38 + 27 = 65."", ""Compute 18 - 33 = -15."", ""Compute 65 - -15 = 80.""]",80
+validation,((38 - 35) - (6 * 31)),"[""Compute 38 - 35 = 3."", ""Compute 6 * 31 = 186."", ""Compute 3 - 186 = -183.""]",-183
+validation,((42 * 3) * (33 + 37)),"[""Compute 42 * 3 = 126."", ""Compute 33 + 37 = 70."", ""Compute 126 * 70 = 8820.""]",8820
